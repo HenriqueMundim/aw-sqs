@@ -1,0 +1,6 @@
+@aws_sqs_HostAddress = http://localhost:5124
+
+GET {{aws_sqs_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
